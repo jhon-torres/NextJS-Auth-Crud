@@ -30,7 +30,7 @@ function RegisterPage() {
     if (res.ok) {
         router.push('/auth/login')
     }
-    console.log(errors)
+    //console.log(errors)
   });
 
   return (
